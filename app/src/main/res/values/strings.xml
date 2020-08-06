@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NGO</string>
+    <string name="welcome">NGO Donator</string>
+    <string name="note"><u>Note</u></string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Ngo Details"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textSize="45sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="226dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:inputType="text"
+                android:background="#F4F4F4"
+                android:hint="FullName"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Address"
+                android:layout_width="226dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:inputType="text"
+                android:background="#F4F4F4"
+                android:hint="Location"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="226dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#F4F4F4"
+                android:hint="Contact"
+                android:inputType="textPhonetic"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="226dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="register" />
+
+            <TextView
+                android:id="@+id/imp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:textColor="#000000"
+                android:text="@string/note"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text="1. No of Donation and Donated Amount will be set to 0."
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:visibility="invisible"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
